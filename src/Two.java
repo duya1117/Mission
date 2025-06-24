@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 class Info {
-    Scanner scanner = new Scanner(System.in);
     String Name;
     int Kor;
     int Eng;
