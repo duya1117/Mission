@@ -30,7 +30,7 @@ class Start {
                     System.out.println("종료되었습니다.");
                     break;
                 default:
-                    System.out.println("잘 못 입력하셨습니다.");
+                    System.out.println("잘못 입력하셨습니다.");
             }
         } while (!stop);
     }
