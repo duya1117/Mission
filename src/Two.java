@@ -59,3 +59,4 @@ public class Two {
         info.output();
     }
 }
+
