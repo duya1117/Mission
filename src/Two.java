@@ -45,11 +45,6 @@ public class Two {
         Scanner scanner = new Scanner(System.in);
         Info info = new Info();
         String student;
-        // 2. **성적 계산 프로그램**
-        //
-        //입력: 이름, 과목별 점수 (예: 국어, 영어, 수학)
-        //기능: 총점과 평균을 계산하고, 평균 점수에 따라 등급(`A ~ F`)을 출력
-        //학습 포인트: 배열, 반복문, 조건문, 입력 처리
 
         System.out.println("학생 이름과 점수를 적어주세요");
         System.out.println("----------------------");
