@@ -1,3 +1,5 @@
+package Three;
+
 import java.util.Scanner;
 
 class Start {
@@ -48,20 +50,5 @@ class Start {
             System.out.println("출금 --- " + money);
             System.out.println("현재 잔액은 " + total + "원 입니다.");
         }
-    }
-}
-
-
-public class Three {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Start start = new Start();
-        int basicMoney;
-
-        System.out.println("초기 금액을 설정해 주세요.");
-        basicMoney = scanner.nextInt();
-
-        start.repeat(basicMoney);
-
     }
 }

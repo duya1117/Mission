@@ -1,3 +1,5 @@
+package Seven;
+
 import java.util.Scanner;
 
 public class Seven {

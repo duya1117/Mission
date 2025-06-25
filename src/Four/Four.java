@@ -1,3 +1,5 @@
+package Four;
+
 import java.util.Scanner;
 
 public class Four {
@@ -10,7 +12,7 @@ public class Four {
         answer = (int)(Math.random() * 100 + 1);
 
 
-            System.out.printf("정답을 맞춰주세요.");
+            System.out.println("1~100사이에서 정답을 맞춰주세요.");
             number= scanner.nextInt();
 
         for(;;) {

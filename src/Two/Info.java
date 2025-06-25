@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Two;
 
 class Info {
     String Name;
@@ -33,30 +33,9 @@ class Info {
             rating = 'D';
         } else {rating = 'F';}
     }
-    void output(){
 
+    void output(){
         System.out.printf("%s의 점수\n국어: %d\n영어: %d\n수학: %d\n총점: %d  평균: %.3f  등급: %s\n"
                 , Name, Kor, Eng, Math,add,average,rating);
     }
 }
-
-public class Two {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Info info = new Info();
-        String student;
-
-        System.out.println("학생 이름과 점수를 적어주세요");
-        System.out.println("----------------------");
-        System.out.println("이름 | 국어 | 영어 | 수학");
-
-        student = scanner.nextLine();
-
-        info.input(student);
-        info.result();
-        info.rating(info.average);
-
-        info.output();
-    }
-}
-
